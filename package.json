@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tailwindcss -i ./style.css -o ./css/styles.css",
+    "watch":"tailwindcss -i ./style.css -o ./css/styles.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olawalelol123/MyResume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olawalelol123/MyResume/issues"
+  },
+  "homepage": "https://github.com/olawalelol123/MyResume#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
